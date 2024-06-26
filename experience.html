@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url(picture/beige-paper-textured-background-simple-style.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #000000;
+        }
+        
+        header {
+            background-color: rgb(10, 10, 52);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            border-top: 5px solid #1d1146;
+        }
+
+        header img {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 100px;
+            height: auto;
+        }
+        
+        nav {
+            background: rgba(10, 10, 52);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fffcfc;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+        
+        article {
+            padding: 40px;
+            width: 70%;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .experience-card {
+            border: 2px solid #1d1146;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .experience-card h3 {
+            margin-bottom: 10px;
+            color: #1d1146;
+        }
+        
+        .experience-card p {
+            margin-bottom: 10px;
+        }
+        
+        .experience-card i {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #1d1146;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        footer {
+            background-color: rgb(5, 5, 43);
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            border-top: 5px solid #281765;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        footer h1 {
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        
+        footer img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="student.html">
+        <img src="picture/LOGO.png" alt="Logo">
+        </a>
+    <h2>Experience</h2>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="skills.html">Skills</a></li>
+    </ul>
+</nav>
+
+<article>
+    <h1 style="text-align: center;margin-bottom: 5px;">Professional Experience</h1>
+
+    <div class="experience-card">
+        <img src="picture/allit.jpeg" alt="ALL IT HYPERMARKET" style="width: 100px; height: auto; margin-right: 20px;">
+        <h3><i class="fas fa-briefcase"></i> ALL IT HYPERMARKET - SALES ADVISOR (20/4/2021 - 15/7/2021)</h3>
+        <p>Advise customers on what types of gadgets that they seek </p>
+    </div>
+    <div class="experience-card">
+        <img src="picture/C-Zone_logo_5.png" alt="ALL IT HYPERMARKET" style="width: 100px; height: auto; margin-right: 20px;">
+        <h3><i class="fas fa-briefcase"></i> C-ZONE - SALES ADVISOR (14/3/2022 - 16/5/2022)</h3>
+        <p>Assisting the customers on building their computers accroding to their specifications</p>
+    </div>
+    <div class="experience-card">
+        <img src="picture/uniq.png" alt="ALL IT HYPERMARKET" style="width: 100px; height: auto; margin-right: 20px;">
+        <h3><i class="fas fa-briefcase"></i> UNIQLO - LOGISTICS (12/4/2023 - 19/9/2023)</h3>
+        <p>Description of your role, responsibilities, and achievements in this position.</p>
+    </div>
+    <div class="experience-card">
+        <img src="picture/petronas.png" alt="ALL IT HYPERMARKET" style="width: 100px; height: auto; margin-right: 20px;">
+        <h3><i class="fas fa-briefcase"></i> PETRONAS - INTERN (19/5/2026 - 21/10/2026)</h3>
+        <p>Doing internship as a system developer to fullfill the last semester requirements.</p>
+    </div>
+    
+
+    <p>Throughout my career, I have focused on IT skills and system creation, which has allowed me to make significant contributions to my employers and grow as a professional.</p>
+</article>
+
+<footer style="display: flex; justify-content: center; align-items: center; text-align: center;">
+    <img src="picture/Copyright_white.svg.png" alt="Copyright Image" style="width: 30px; height: auto; margin-right: 10px;">
+    <h1 style="margin: 0;">Copyright by Syafiq Roslee, 2024</h1>
+</footer>
+
+</body>
+</html>
